@@ -28,4 +28,5 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pega-my-own:my-installer-8.4.1:latest
+          #tags: ${{ secrets.DOCKER_HUB_USERNAME }}/pega-my-own:my-installer-8.4.1:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/clockbox:latest
